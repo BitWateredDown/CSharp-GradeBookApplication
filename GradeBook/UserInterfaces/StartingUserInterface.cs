@@ -25,6 +25,8 @@ namespace GradeBook.UserInterfaces
                 LoadCommand(command);
             else if (command == "help")
                 HelpCommand();
+            else if (command == "?")
+                HelpCommand();
             else if (command == "quit")
                 Quit = true;
             else
